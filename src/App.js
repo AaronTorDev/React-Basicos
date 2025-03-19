@@ -1,7 +1,8 @@
 import logo from './logo.svg';
+import Propiedades from './components/Propiedades'
 import './App.css';
 import Componente from './components/Componente';
-import Propiedades from './components/Propiedades';
+import Estado from './components/Estado';
 
 function App() {
   return (
@@ -29,13 +30,22 @@ function App() {
         <Propiedades
          porDefecto = "Las Props" 
          cadena = "Esto es un string"
-         numero = {19}
+        //  numero = {19}
          booleano = {false}
          arreglo = {[1,2,3]}
-         />
-      </section>
-      <hr/>
-      <section>
+         objeto = 
+         {{ 
+            nombre: "TorDev", 
+            correo: "aarontordel1@gmail.com",
+             }}
+        funcion = { function(num){
+          return(num * num)
+        }}
+         elementoReact = {<i>Esto es un elemento react</i>}
+         componenteReact = {<Componente msg = "Soy un componente pasado como prop" msg2 = "Soy msg2"/>}
+          />
+          <hr></hr>
+          <Estado/>
       </section>
 
     </div>
