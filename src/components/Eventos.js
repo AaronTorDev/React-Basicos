@@ -100,7 +100,9 @@ export class EventosES7 extends Component {
 
 
 
+
 // const Boton = (props) => <button onClick = {props.myOnClick} >Boton Hecho Componente</button>
+
 const Boton = ({myOnClick}) => <button onClick = {myOnClick}>Boton Hecho Componente</button>
 
 
