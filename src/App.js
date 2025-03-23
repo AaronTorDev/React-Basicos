@@ -7,7 +7,8 @@ import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
 import {EventosES6, EventosES7, MasSobreEventos} from './components/Eventos';
 import ComunicacionComponentes from './components/ComunicacionComponentes';
-import CicloVida from './CicloVida';
+import CicloVida from './components/CicloVida';
+import AjaxApis from './components/AjaxApis';
 
 function App() {
   return (
@@ -48,8 +49,8 @@ function App() {
         }}
          elementoReact = {<i>Esto es un elemento react</i>}
          componenteReact = {<Componente msg = "Soy un componente pasado como prop" msg2 = "Soy msg2"/>}
-          />
-          <hr></hr>
+         />
+         <hr/>
           <Estado/>
           <hr/>
           <RenderizadoCondicional/>
@@ -65,6 +66,8 @@ function App() {
           <ComunicacionComponentes/>
           <hr/>
           <CicloVida/>
+          <hr/>
+         <AjaxApis/>
       </section>
 
     </div>

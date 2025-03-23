@@ -23,7 +23,7 @@ class Padre extends Component {
     render() { 
         return (
             <>
-            <h2>Comicacion entre Componentes</h2>
+            <h2>Comunicacion entre Componentes</h2>
             <p>Contador <b>{this.state.contador}</b> </p>
             <Hijoi incrementarContador = {this.incrementarContador} mensaje = "mensaje para el hijo 1"/>
             <Hijor reducirContador = {this.reducirContador} mensaje = "mensaje para el hijo 2"/>
