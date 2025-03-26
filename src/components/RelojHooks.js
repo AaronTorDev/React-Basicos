@@ -39,6 +39,7 @@ function RelojHooks() {
     return ( 
         <>
         <h2>Reloj Con Hooks</h2>
+        <h3>Prueba</h3>
         {Visible && <Reloj Hour = {Hour}/>}
         <button onClick={() => setVisible(true)}>Iniciar</button>
         <button onClick={() => setVisible(false)}>Detener</button>
