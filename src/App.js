@@ -13,6 +13,7 @@ import ContadorHooks from './components/ContadorHooks';
 import ScrollHooks from './components/ScrollHooks';
 import RelojHooks from './components/RelojHooks';
 import AjaxHooks from './components/AjaxHooks';
+import HooksPersonalizados from './components/HooksPersonalizados';
 
 function App() {
   return (
@@ -71,14 +72,17 @@ function App() {
           <hr/>
           <CicloVida/>
           <hr/>
-         <AjaxApis/>
+         {/* <AjaxApis/> */}
          <hr/>
          <ContadorHooks titulo = "Seguidores"/>
          <hr/>
-         <ScrollHooks/>
+         {/* <ScrollHooks/> */}
          <hr/>
          <RelojHooks/>
-         <AjaxHooks/>
+         <hr/>
+         {/* <AjaxHooks/> */}
+         <hr/>
+         <HooksPersonalizados/>
       </section>
 
     </div>
