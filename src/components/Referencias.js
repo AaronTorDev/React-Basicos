@@ -1,4 +1,4 @@
-import {createRef, useRef} from "react"
+import { useRef} from "react"
 import React from 'react'
 
 function Referencias() {
@@ -37,15 +37,15 @@ function Referencias() {
         <button id='menu-btn' ref = {refMenuBtn} onClick={handleToggleMenu}>Menu</button>
         <nav id='menu' ref= {refMenu} style = {{display : "none"}}>
 
-        <a href="#">Seccion 1</a>
+        <a href="public/index.html">Seccion 1</a>
         <br/>
-        <a href="#">Seccion 2</a>
+        <a href="public/index.html">Seccion 2</a>
         <br/>
-        <a href="#">Seccion 3</a>
+        <a href="public/index.html">Seccion 3</a>
         <br/>
-        <a href="#">Seccion 4</a>
+        <a href="public/index.html">Seccion 4</a>
         <br/>
-        <a href="#">Seccion 5</a>
+        <a href="public/index.html">Seccion 5</a>
 
         </nav>
 
